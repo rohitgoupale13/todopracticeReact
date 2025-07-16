@@ -30,12 +30,7 @@ export const Todo = () => {
         // Cleanup function to clear the interval when the component unmounts
         return () => clearInterval(timerId);
       }, []);
-  // date and time
-  // const now = new Date();
-  // const formatDate= now.toLocaleDateString();
-  // const hour= now.getHours() ;
-  // const min=now.getMinutes();
-  // const sec= now.getSeconds(); 
+  
  
   return (
     <section className="todo-container">
